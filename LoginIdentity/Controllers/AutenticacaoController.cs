@@ -54,7 +54,6 @@ namespace LoginIdentity.Controllers
 
         public ActionResult LogOut()
         {
-
             var ctx = Request.GetOwinContext();
             var authManager = ctx.Authentication;
 
